@@ -1,0 +1,29 @@
+.navbar-brand img{
+  padding-bottom: 15px;
+
+}
+.navbar-btn {
+	margin-top: 23px;
+}
+.mynav{
+	line-height: 4;
+	background:#264E86;
+}
+.mynav ul a{
+	margin-top: 15px;
+	color: #fff;
+}
+.mynav ul .dropdown-menu li a{
+	color: #79A8A9;
+}
+.mynav ul li a:hover{
+ color: #79A8A9;
+}
+.intro{
+	margin-top: 55px;
+}
+.intro .item img{
+	
+	height: 450px;
+	max-width: 100%;
+}	

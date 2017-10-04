@@ -1,0 +1,370 @@
+.body{
+
+}
+.glyphicon {
+	padding-right: 5px;
+}
+/*.dropdown-toggle{
+	background-color: transparent;
+}*/
+.navbar-brand img{
+  /*padding-top: 5px;
+  padding-left:30px;*/
+  width: 90px;
+
+}
+.navbar-btn {
+	margin-top: 23px;
+}
+.mynav{
+	line-height: 4;
+	background:#264E86;
+	
+}
+.mynav ul a{
+	margin-top: 15px;
+	color: #fff;
+	/*font-size: 15px bold;*/
+}
+.mynav ul .dropdown-menu li a{
+	color: #264E86;
+	font-size: 15px;
+
+}
+.mynav ul li a:hover{
+ /*color: #264E86;*/
+ transition: 0.5s ease-in-out;
+
+}
+.navbar-toggle .collapsed button{
+	color: #fff;
+	background-color: #000;
+}
+
+
+/*intro start*/
+.intro{
+	margin-top: 45px;
+}
+.intro .item img{
+	width: 1950px;
+	height: 900px;
+}
+
+
+/*feature start*/
+.features{
+    height: 400px;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 50px;
+}
+.features .feat {
+    float: left;
+    width: 33.33333333333%;
+}
+.features .feat p{
+    line-height: 2.5em;
+    color: #aaa;
+    font-size: 15px;
+}
+ .features .feat .title{
+	margin-top: 35px;
+	margin-bottom: 55px;
+	}
+.features .feat .title span{
+    margin: 115px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #000;
+    padding: 5px;
+    border-top: 3px solid #000;
+    font-size: 40px;
+	text-shadow: 2px 2px #928A97;
+}
+/*features end */
+
+
+/*about start*/
+.About{
+	background: linear-gradient(0deg, rgba(0,0,0,1), rgba(255,255,255,0)), url(../img/robots.jpg) no-repeat;
+	position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+	max-height: 150vh;
+	margin-top: 100px;
+	/*background-color: #F4F7F7;*/
+	margin-right: -15px;
+    margin-left: -15px;
+    overflow: hidden;
+}
+.col-lg-4 {
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.About img{
+	border-radius: 50%;
+	box-shadow: 2px 2px #283C63;
+	opacity: 0.75;
+}
+.About img:hover{
+	opacity: 1;
+	transition: 0.5s ease-in-out;
+}
+.About .title{
+	margin-top: 35px;
+	margin-bottom: 55px;
+}
+.About .title span{
+	font-family: Georgia, sans-serif;
+	text-align: center;
+	margin-left: 400px;
+	color: #f7f7f7;
+    border-bottom: 3px solid #000;
+    padding: 5px;
+    border-top: 3px solid #000;
+    font-size: 50px;
+	font: bold;
+	text-shadow: 2px 2px #928A97;
+    
+}
+/*.About h2{
+	font-family: Georgia, sans-serif;
+	text-align: center;
+	color: #f7f7f7;
+	padding-bottom: 65px;
+	font-size: 50px;
+	font: bold;
+	text-shadow: 2px 2px #928A97;
+}*/
+.About .first .info h3{
+	color: #F85F73;
+	font-family: Georgia, sans-serif;
+	font: bold;
+	line-height: 1.5em;
+	
+}
+.About .second .info h3{
+	color: #F85F73;
+	line-height: 1.5em;
+	font-family: Georgia, sans-serif;
+	
+}
+.About .first .info p{
+	font: italic  15px Georgia, serif;
+	color: #f7f7f7;
+}
+.About .second .info p{
+	font: italic  15px Georgia, serif;
+	color: #f7f7f7;
+}
+
+/*about end*/
+
+
+
+/*Progress stert*/
+.Progress{
+	height: 500px;
+	margin-top: 70px;
+	overflow: hidden;
+}
+.Progress .progress{
+	height: 35px;
+}
+.Progress .col-lg-6{
+	float: left;
+}
+.Progress .title{
+	margin-bottom: 35px;
+}
+.Progress .title span{
+	text-align: center;
+	margin-left: 500px;
+    font-size: 30px;
+    border-bottom: 3px solid #000;
+    padding: 5px;
+    border-top: 3px solid #000;
+    
+}
+.Progress .col-lg-6 span{
+	float: right;
+	margin-top: 50px;
+	line-height: 2em;
+	font-size: 17px;
+}
+
+/*Progress end*/
+
+
+/*testimonails start */
+.team{
+  height: 90vh;
+  background: #0F1021;
+  padding-top: 80px;
+  margin-top: 50px;
+}
+.team .title{
+	margin-top: 35px;
+	margin-bottom: 55px;
+}
+
+.team .title span{
+    font-family: Georgia, sans-serif;
+	margin-left: 500px;
+	color: #fff;
+	padding-bottom: 95px;
+	font-size: 50px;
+	font: bold;
+	text-shadow: 2px 2px #928A97;
+	border-bottom: 3px solid #f7f7f7;
+    padding: 5px;
+	border-top: 3px solid #f7f7f7;
+	
+
+}
+.team .item img{
+  margin:0 auto;
+  border-radius: 50%;
+  border:2px solid #fff;
+  width: 200px;
+  height: 200px;
+}
+.team .carousel{
+  padding-bottom: 90px;
+}
+.team .testitext{
+  color:#fff;
+  text-align: center;
+  padding:15px;
+  font-size: 22px;
+  font-family: Tahoma;
+  line-height: 2.5em;
+}
+.team .carousel-indicators li {
+    text-indent: 0;
+    opacity: .4;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.team .carousel-indicators li.active {
+    text-indent: 0;
+    opacity: 1;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+/*testi end*/
+
+
+.contact {
+background-image: url(../img/background.jpg);
+height: 600px;
+margin-top: 70px;
+
+}
+.contact .infoo{
+width: 50%;
+float: left;
+color: #aaa;
+line-height: 1.4em;
+margin-top: 20px;
+}
+.contact .infoo h2{
+color: #ddd;
+padding-bottom: 25px;
+}
+.contact .forms{
+margin-top: 70px;
+float: left;
+width: 50%;
+color: #aaa;
+}
+.contact .forms input{
+width: 80%;
+height: 35px;
+border: 0px;
+border-radius: 4px;
+color: #f7f7f7;
+margin: 10px;
+padding: 4px;
+}
+.contact .forms textarea{ 
+width: 80%;
+height:60px;
+border: 0px;
+border-radius: 4px;
+margin:10px;
+padding: 4px;
+}
+.contact .forms button{
+	text-align: center;
+	margin-left: 10px;
+}
+/*
+.footer {
+	height: 100px;
+}
+.footer .end .ex1{
+	background-color: #ddd;
+}
+*/
+.footer{
+background-color: #191E22;
+height: 85px;
+color: #787C7F;
+overflow: hidden;
+text-align: center;
+padding-top: 10px;
+}
+.footer .div{
+font-size: 30px;
+}
+.footer i {
+width: 30px;
+height: 30px;
+background-color: #475254;
+border-radius: 50%;
+line-height: 30px;
+color: #181D21;
+}
+.footer a.ex1 i:hover{
+background-color: #0029A3;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex2 i:hover{
+background-color: #0066ff;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex3 i:hover{
+background-color: #cc0000;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex4 i:hover{
+background-color: #cc0000;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex5 i:hover{
+background-color: #3366cc;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex6 i:hover{
+background-color: #ff3300;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
